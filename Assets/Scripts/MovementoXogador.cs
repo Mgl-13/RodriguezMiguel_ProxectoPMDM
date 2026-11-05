@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class MovementoXogador : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class MovementoXogador : MonoBehaviour
     [SerializeField] float velocidadSalto = 5f;
 
     [SerializeField] int maxSaltos = 2;
+
+    [SerializeField] int vidasActuales = 0;
     private int saltosRestantes;
     
     InputAction accionMoverse;
@@ -70,6 +73,29 @@ public class MovementoXogador : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo") || collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             saltosRestantes = maxSaltos;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.CompareTag("Trampa"))
+        {
+            if(vidasActuales > 0){ 
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+                vidasActuales--;
+            } else if(vidasActuales == 0){
+
+                Debug.Log("Has perdido");
+                //SceneManager.GetSceneByName(string Inicio);            
+            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);           
+        }
+
+        if (collision.CompareTag("Vidas"))
+        {
+             vidasActuales++;
+             Destroy(collision.gameObject);          
         }
     }
 }
