@@ -1,14 +1,14 @@
-# 🎮 Pink Adventures
+#  Pink Adventures
 
 
 
-## 👤 Autor
+##  Autor
 
 * **Miguel Rodríguez Fernández** 
 
 ---
 
-## 📖 Descripción del Juego
+##  Descripción del Juego
 
 + Unha demo dun xogo de plataformas básico
 
@@ -19,28 +19,28 @@
 
 ---
 
-## 📸 Capturas de Pantalla
+##  Capturas de Pantalla
 
-### 🏠 Pantalla de Inicio (Menú Principal)
+###  Pantalla de Inicio (Menú Principal)
 ![Pantalla de Inicio](RodriguezMiguel_ProxectoPMDM\CAPTURAS\Inicio.png)
 *Menú principal de la demo con el botón para comenzar a jugar.*
 
 ---
 
-### 🕹️ Nivel 1
+### Nivel 1
 ![Nivel 1](RodriguezMiguel_ProxectoPMDM\CAPTURAS\inGame.png)
 *Vista del primer nivel mostrando las plataformas, el jugador y el mapa inicial.*
 
 ---
 
 
-### 🏁 Pantalla de Fin / Game Over
+### Pantalla de Fin / Game Over
 ![Pantalla de Fin](RodriguezMiguel_ProxectoPMDM\CAPTURAS\Fin.png)
 *Pantalla mostrada al completar la demo o perder las vidas.*
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Motor de juego:** Unity 2D
 * **Lenguaje de programación:** C#
