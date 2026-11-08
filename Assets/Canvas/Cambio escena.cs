@@ -1,16 +1,25 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Cambioescena : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    // Método para cargar una escena por su nombre exacto
+    public void CambiarAEscena(string nombreEscena)
     {
-        
+        SceneManager.LoadScene(nombreEscena);
     }
 
-    // Update is called once per frame
-    void Update()
+    // Método para pasar directamente al siguiente nivel
+    public void SiguienteNivel()
     {
-        
+        int escenaActual = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(escenaActual + 1);
+    }
+
+    // Método para salir del juego
+    public void SalirJuego()
+    {
+        Debug.Log("Saliendo del juego...");
+        Application.Quit();
     }
 }
