@@ -35,7 +35,7 @@
 
 
 ### Pantalla de Fin / Game Over
-![Pantalla de Fin](https://github.com/Mgl-13/RodriguezMiguel_ProxectoPMDM/blob/main/CAPTURAS/Fin.png)
+![Pantalla de Fin](https://github.com/Mgl-13/RodriguezMiguel_ProxectoPMDM/blob/main/CAPTURAS/FIN.png)
 *Pantalla mostrada al completar la demo o perder las vidas.*
 
 ---
