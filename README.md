@@ -22,20 +22,20 @@
 ##  Capturas de Pantalla
 
 ###  Pantalla de Inicio (Menú Principal)
-![Pantalla de Inicio](RodriguezMiguel_ProxectoPMDM\CAPTURAS\Inicio.png)
+![Pantalla de Inicio](github.com/Mgl-13/RodriguezMiguel_ProxectoPMDM/tree/main/CAPTURAS/Inicio.png)
 *Menú principal de la demo con el botón para comenzar a jugar.*
 
 ---
 
 ### Nivel 1
-![Nivel 1](RodriguezMiguel_ProxectoPMDM\CAPTURAS\inGame.png)
+![Nivel 1](github.com/Mgl-13/RodriguezMiguel_ProxectoPMDM/tree/main/CAPTURAS/inGame.png)
 *Vista del primer nivel mostrando las plataformas, el jugador y el mapa inicial.*
 
 ---
 
 
 ### Pantalla de Fin / Game Over
-![Pantalla de Fin](RodriguezMiguel_ProxectoPMDM\CAPTURAS\Fin.png)
+![Pantalla de Fin](github.com/Mgl-13/RodriguezMiguel_ProxectoPMDM/tree/main/CAPTURAS/Fin.png)
 *Pantalla mostrada al completar la demo o perder las vidas.*
 
 ---
